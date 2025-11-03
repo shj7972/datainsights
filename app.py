@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Streamlit main page configuration
-st.set_page_config(page_title='Multi-App Home', layout='wide')
+st.set_page_config(page_title='Multi-App Home', layout='wide', initial_sidebar_state='expanded')
 # Set the page configuration to use the dark theme
 #st.set_page_config(page_title='Your App Title', layout='wide', theme={"primaryColor":"#F63366","backgroundColor":"#0E1117","secondaryBackgroundColor":"#31333F","textColor":"#FAFAFA","font":"sans serif"})
 
